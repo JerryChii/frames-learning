@@ -1,0 +1,3 @@
+使用telnet向服务端发数据
+
+telnet localhost 8095
