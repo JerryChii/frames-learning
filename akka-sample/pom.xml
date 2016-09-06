@@ -30,7 +30,6 @@
                         </goals>
                         <configuration>
                             <args>
-                                <arg>-make:transitive</arg>
                                 <arg>-dependencyfile</arg>
                                 <arg>${project.build.directory}/.scala_dependencies</arg>
                             </args>
@@ -124,7 +123,7 @@
             <version>${scala.version}</version>
         </dependency>
 
-        <!--<dependency>
+        <dependency>
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-stream_${scala.binary.version}</artifactId>
             <version>${akka.version}</version>
@@ -134,15 +133,7 @@
                     <artifactId>scala-library</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>-->
-
-        <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-stream_2.11 -->
-        <!--<dependency>
-            <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-stream_2.11</artifactId>
-            <version>2.4.6</version>
-        </dependency>-->
-
+        </dependency>
 
         <dependency>
             <groupId>com.typesafe.akka</groupId>
