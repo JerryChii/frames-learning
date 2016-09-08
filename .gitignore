@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/
+akka-sample/akka-sample.iml
+akka-sample/src/main/java/
+akka-sample/src/test/
+netty-sample/netty-sample.iml

@@ -8,12 +8,43 @@
     <artifactId>netty-sample</artifactId>
     <version>4.1.4.Final</version>
 
+    <properties>
+        <guice.version>4.0</guice.version>
+        <lombok.version>1.16.4</lombok.version>
+        <guava.version>18.0</guava.version>
+        <marshalling.version>1.4.11.Final</marshalling.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
             <version>4.1.4.Final</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>${guice.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.marshalling</groupId>
+            <artifactId>jboss-marshalling</artifactId>
+            <version>${marshalling.version}</version>
+        </dependency>
+
 
     </dependencies>
 
